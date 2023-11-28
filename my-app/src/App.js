@@ -1,22 +1,21 @@
 import React from 'react';
+import { BrowserRouter } from 'react-router-dom';
 import './App.css';
-import Footer from './Footer';
-import Nav from './Nav';
-import Heading from "./Heading";
-import Main from "./Main";
+import Footer from './components/Footer'
+import Nav from './components/Nav';
+import Header from "./components/Header";
+import Main from "./components/Main";
 
 
 function App() {
   return (
-    <div className="App">
-      <Heading />
-     
-      <Nav />
+    <>
 
-      <Main />
-      
-      <Footer />
-    </div>
+     <Nav/>
+     
+     <Header/>
+   
+    </>
   );
 }
  
