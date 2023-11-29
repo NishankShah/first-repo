@@ -24,4 +24,3 @@ const Header = () => {
 
 export default Header;
 
-// header done 12:00 
